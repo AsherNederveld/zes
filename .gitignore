@@ -103,3 +103,4 @@ webtalk*.log
 xsim.dir/
 xvlog.pb
 xvhdl.pb
+*ves_verilog/
