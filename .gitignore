@@ -67,3 +67,39 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Vivado
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+
+# Vivado session files
+*.jou
+*.str
+webtalk*.jou
+webtalk*.log
+
+# Vivado backups
+*-backup.tcl
+*-backup-journal.tcl
+*.xpr.bak
+
+# Vivado generated outputs
+*.bit
+*.bin
+*.mcs
+*.prm
+*.ltx
+*.dcp
+*.hdf
+*.xsa
+
+# Vivado simulation
+*.wdb
+*.vcd
+xsim.dir/
+xvlog.pb
+xvhdl.pb
